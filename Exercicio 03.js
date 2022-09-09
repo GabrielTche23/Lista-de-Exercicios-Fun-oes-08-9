@@ -1,6 +1,7 @@
 let arraySalario = [630,2680,1600,1214]
 let arrayFilhos = [6,3,4,1]
 
+
 //let perguntaSalario = prompt("Digite o seu salario?")
 //let perguntaFilhos = prompt("Digite o numero de filhos que você possue: ")
 console.log(CalcularMediaSalario())
@@ -24,12 +25,12 @@ function CalcularMediaFilhos(){
 }
 
 function MaiorSalario(){
+    let maiorSalario = 0
     for (let contador = 0; contador < arraySalario.length; contador++){
-        let maiorSalario = 0
         if(arraySalario[contador] > maiorSalario){
             maiorSalario = arraySalario[contador]
         }
-        return maiorSalario
-    } 
+    }
+    return maiorSalario
 }
 
