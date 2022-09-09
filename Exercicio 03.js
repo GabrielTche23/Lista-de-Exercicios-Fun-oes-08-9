@@ -7,6 +7,7 @@ let arrayFilhos = [6,3,4,1]
 console.log(CalcularMediaSalario())
 console.log(CalcularMediaFilhos())
 console.log(MaiorSalario())
+console.log(CalcularPorcentagem())
 
 function CalcularMediaSalario(){
     let mediaSalario = 0
@@ -34,3 +35,13 @@ function MaiorSalario(){
     return maiorSalario
 }
 
+function CalcularPorcentagem(){
+    let porcentagem = 0
+    let numeroDePessoas = 0
+    for(let contador = 0; contador < arrayFilhos.length; contador++){
+        if(arraySalario[contador] > 1500){
+            numeroDePessoas++ 
+        }
+    }
+    return porcentagem = (numeroDePessoas / arrayFilhos.length) * 100
+} 
