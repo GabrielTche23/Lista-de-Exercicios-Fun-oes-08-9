@@ -4,6 +4,7 @@ let arrayFilhos = [6,3,4,1]
 
 //let perguntaSalario = prompt("Digite o seu salario?")
 //let perguntaFilhos = prompt("Digite o numero de filhos que você possue: ")
+
 console.log(CalcularMediaSalario())
 console.log(CalcularMediaFilhos())
 console.log(MaiorSalario())
@@ -44,4 +45,4 @@ function CalcularPorcentagem(){
         }
     }
     return porcentagem = (numeroDePessoas / arrayFilhos.length) * 100
-} 
+}
